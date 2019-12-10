@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 - Formulários</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+
+            <fieldset>
+                <input type="radio" name="idade" id="idade" value="menor18">Menor de 18
+                <input type="radio" name="idade" id="idade" value="19-35">19-35
+                <input type="radio" name="idade" id="idade" value="36-48">36-48
+                <input type="radio" name="idade" id="idade" value="maior49">Maior de 49
+            </fieldset>
+            <br>
+
+            <div>
+                <label for="profissao">Profissão:</label>
+                <input type="text" name="profissao" id="profissao">
+
+                <!--como fazer um dropdown-->
+                <label for="pais">País: </label>
+                <select>
+                    <option value="portugal">Portugal</option>
+                    <option value="italia">Itália</option>
+                    <option value="russia">Rússia</option>
+                    <option value="noruega">Noruega</option>
+                    <option value="grecia">Grécia</option>
+                    <option value="malta">Malta</option>
+                </select>
+            </div>
+            <br>
+            
+            <fieldset>
+                <input type="radio" name="interesses" id="interesses" value="fotografia">Fotografia
+                <input type="radio" name="interesses" id="interesses" value="musica">Música
+                <input type="radio" name="interesses" id="interesses" value="cinema">Cinema
+                <input type="radio" name="interesses" id="interesses" value="computador">Computador
+                <input type="radio" name="interesses" id="interesses" value="outros"> <label for="outros">Outros:</label>
+                <input type="outros" name="outros" id="outros">
+            </fieldset>
+            <br>
+
+            <!--Label para comentário com medidas à escolha de um campo de texto-->
+            <label for="comentario">Como descobriu o site: </label>
+            <textarea name="comentario" id="comentario" rows="5" cols="50"></textarea>
+            <br><br>
+        
+            <input type="submit" name="submitbutton" id="sumitbutton" value="Register">
+
+        </fieldset>
+    </form>
+</body>
+</html>
