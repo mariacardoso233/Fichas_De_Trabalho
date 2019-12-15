@@ -1,214 +1,215 @@
 /* header */
 
-body>header {
+body > header {
     background-color: #046dd5;
     color: white;
+  
     padding: 1em;
-}
-
-body>header h1,
-body>header h2 {
+  }
+  
+  body > header h1, body > header h2{
     margin: 0;
-}
-
-body>header a {
+  }
+  
+  body > header a {
     color: white;
-    text-decoration: none;
-}
-
-body>header #signup a:first-child {
+    text-decoration: none;  
+  }
+  
+  body > header #signup a:first-child {
     border-right: 1px solid white;
-}
-
-body>header #signup a {
+  }
+  
+  body > header #signup a {
     padding: 0 1em;
-}
-
-body>header #signup a:first-child {
+  }
+  
+  body > header #signup a:first-child {
     padding-left: 0;
-}
-
-
-/* nav id="menu" */
-
-#menu ul {
+  }
+  
+  /* navigation */
+  
+  #menu ul {
     margin: 0;
     padding: 0;
-}
-
-#menu li {
+  }
+  
+  #menu li {
     background-color: white;
     text-align: center;
+  
     list-style-type: none;
+  
     padding: 1em 0;
-}
-
-#menu li a {
+  }
+  
+  #menu li a{
     color: black;
     text-decoration: none;
-}
-
-#menu li:hover {
+  }
+  
+  #menu li:hover {
     background-color: #2a2f33;
-}
-
-#menu li:hover a {
+  }
+  
+  #menu li:hover a{
     color: white;
-}
-
-#hamburger,
-.hamburger {
+  }
+  
+  #hamburger, .hamburger {
     display: none;
-}
-
-
-/* article -> section id="news" */
-
-#news header {
+  }
+  
+  /* article */
+  
+  #news header {
     max-width: 10em;
     padding: 1em;
     position: absolute;
-}
-
-#news header h1 {
+  }
+  
+  #news header h1{
     margin: 0;
+  
     text-shadow: .2em .2em .2em black;
-}
-
-#news header a {
+  }
+  
+  #news header a{
     color: white;
     text-decoration: none;
-}
-
-#news img {
+  }
+  
+  #news img {
     width: 100%;
-}
-
-#news>article {
+  }
+  
+  #news > article {
     background-color: white;
+  
     margin: 1em 1em 1em 0;
-}
-
-#news>article>p {
+  }
+  
+  #news > article > p{
     padding: 0 1em;
-}
-
-#news>article>p:first-of-type:first-letter {
+  }
+  
+  #news > article > p:first-of-type:first-letter{
     font-size: 2em;
-}
-
-#news footer {
+  }
+  
+  #news footer {
     color: white;
     background-color: #f4655f;
+  
     padding: 1em;
-}
-
-#news footer a {
+  }
+  
+  #news footer a{
     color: white;
     text-decoration: none;
     border-bottom: 1px solid white;
     padding-bottom: 2px;
-}
-
-#news footer .tags {
+  }
+  
+  #news footer .tags {
     margin-right: 1em;
-}
-
-#news footer .comments {
+  }
+  
+  #news footer .comments {
     margin-left: 1em;
-}
-
-#news footer .comments:after {
+  }
+  
+  #news footer .comments:after {
     content: ' comments';
-}
-
-#news footer .author:before {
+  }
+  
+  #news footer .author:before{
     content: "By ";
-}
-
-
-/* #related */
-
-#related {
+  }
+  
+  /* related */
+  
+  #related {
     background-color: #2a2f33;
+  
     padding: 1em;
-}
-
-#related h1 a {
+  }
+  
+  #related h1 a {
     color: white;
     text-decoration: none;
-}
-
-#related p {
+  }
+  
+  #related p {
     color: white;
-}
-
-
-/* footer */
-
-body>footer {
+  }
+  
+  /* footer */
+  
+  body > footer {
     background-color: #2a2f33;
     color: white;
+  
     padding: 1em;
     margin-right: 1em;
+  
     height: 1em;
-}
-
-body>footer p {
+  }
+  
+  body > footer p {
     margin: 0;
-}
-
-
-/* fontes */
-
-body {
+  }
+  
+  /* fonts */ 
+  
+  body {
     font-family: 'Verdana', sans-serif;
-}
-
-p {
+  }
+  
+  p {
     font-family: "Georgia", serif;
     line-height: 1.4em;
-}
-
-header h2 {
+  }
+  
+  header h2 {
     font-size: 1em;
-}
-
-header a {
+  }
+  
+  header a {
     font-size: 0.8em;
-}
-
-#news header {
+  }
+  
+  #news header {
     font-size: 1.5em;
-}
-
-#news footer {
+  }
+  
+  #news footer {
     font-size: 0.8em;
-}
-
-
-/*Cores na parte de cima dos títulos (Local,...):*/
-
-#menu li:nth-child(1) {
+  }
+  
+  /* section colors */
+  
+  #menu li:nth-child(1) {
     border-top: 5px solid #e1493e;
-}
-
-#menu li:nth-child(2) {
+  }
+  
+  #menu li:nth-child(2) {
     border-top: 5px solid #8aba56;
-}
-
-#menu li:nth-child(3) {
+  }
+  
+  #menu li:nth-child(3) {
     border-top: 5px solid #5b4282;
-}
-
-#menu li:nth-child(4) {
+  }
+  
+  #menu li:nth-child(4) {
     border-top: 5px solid #ff8932;
-}
-
-#menu li:nth-child(5) {
+  }
+  
+  #menu li:nth-child(5) {
     border-top: 5px solid #19b6e9;
-}
-
-#menu li:nth-child(6) {
+  }
+  
+  #menu li:nth-child(6) {
     border-top: 5px solid #e84c8b;
-}
+  }
